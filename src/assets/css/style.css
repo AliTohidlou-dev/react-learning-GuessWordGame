@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100dvw;
+  height: 100vh;
+  background: linear-gradient(rgba(100,10,25,.5),rgba(0,0,140,.5),rgba(0,30,30,.8));
+  display: grid;
+  place-content: center;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.main input{
+  width: 250px;
+  height: 1.8rem;
+  outline: none;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.inputBtns{
+display: flex;
+gap: 10px;
+}
+.inputBtns button{
+  padding: 5px;
+  border-radius: 10px;
+}
