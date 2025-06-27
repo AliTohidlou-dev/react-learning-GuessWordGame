@@ -50,7 +50,7 @@ class App extends PureComponent {
         <h4>Guess Word</h4>
         <input type="text" ref={this.guessInput} placeholder="write here..." />
         <div className="inputBtns">
-          <button type="submit">start</button>
+          <button type="submit">{this.state.player ? "start" : "check"}</button>
           <button type="button" onClick={this.handleClear}>Clear</button>
         </div>
         <p>{this.state.player ? "Dealer" : "Player"}</p>
